@@ -14,7 +14,6 @@
 
   <project path="build" name="3dsfr3ak/android_build" remote="github" revision="slim-4.3"/>
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="3dsfr3ak/android_bionic" remote="github" revision="jb4.3"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
