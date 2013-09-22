@@ -531,8 +531,8 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 <!--Devices-->
   <project name="3dsfr3ak/android_device_zte_blade2-common" path="device/zte/blade2-common" remote="cm" revision="cm-10.2" />
-  <project name="3dsfr3ak/android_device_zte_blade2_p736e" path="device/zte/blade2_p736e" remote="cm" revision="cm-10.2" />
-  <project name="3dsfr3ak/android_device_zte_blade2_p736v" path="device/zte/blade2_p736v" remote="cm" revision="cm-10.2" />
+  <project name="3dsfr3ak/android_device_zte_blade2_p736e" path="device/zte/blade2_p736e" remote="cm" revision="carbon-4.3" />
+  <project name="3dsfr3ak/android_device_zte_blade2_p736v" path="device/zte/blade2_p736v" remote="cm" revision="carbon-4.3" />
   <project name="3dsfr3ak/android_kernel_zte_msm7x27" path="kernel/zte/msm7x27" remote="cm" revision="cm-10.1" />
   <project name="Dazzozo/proprietary_vendor_zte" path="vendor/zte" remote="cm" revision="cm-10.1" />
   <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" remote="cm" revision="cm-10.2" />
