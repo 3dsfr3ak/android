@@ -12,15 +12,15 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" remote="github" revision="jb4.3" >
+  <project path="build" name="3dsfr3ak/android_build" remote="github" revision="slim-4.3"/>
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="SlimRoms/android_bionic" remote="github" revision="jb4.3" />
+  <project path="bionic" name="3dsfr3ak/android_bionic" remote="github" revision="jb4.3"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="SlimRoms/bootable_recovery" remote="github" revision="jb4.3" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="SlimRoms/android_dalvik" remote="github" revision="jb4.3" />
+  <project path="dalvik" name="3dsfr3ak/android_dalvik" remote="github" revision="slim-4.3"/>
   <project path="development" name="SlimRoms/android_development" remote="github" revision="jb4.3" />
   <project path="device/common" name="SlimRoms/device_common" remote="github" revision="jb4.3" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -133,7 +133,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="SlimRoms/android_external_llvm" remote="github" revision="jb4.3" />
+  <project path="external/llvm" name="3dsfr3ak/android_external_llvm" remote="github" revision="jb4.3"/>
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" revision="jb-mr1.1-release" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" />
   <project path="external/markdown" name="platform/external/markdown" />
@@ -198,13 +198,13 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="SlimRoms/android_external_wpa_supplicant_6" remote="github" revision="jb4.3" />
-  <project path="external/wpa_supplicant_8" name="SlimRoms/android_external_wpa_supplicant_8" remote="github" revision="jb4.3" />
+<project path="external/wpa_supplicant_8" name="3dsfr3ak/android_external_wpa_supplicant_8" remote="github"  revision="jb4.3"/>
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="SlimRoms/android_external_yaffs2" remote="github" revision="jb4.3" />
   <project path="external/zlib" name="SlimRoms/android_external_zlib" remote="github" revision="jb4.3" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="SlimRoms/frameworks_av" remote="github" revision="jb4.3" />
+  <project path="frameworks/av" name="3dsfr3ak/android_frameworks_av" remote="github" revision="slim-4.3"/>
   <project path="frameworks/base" name="SlimRoms/frameworks_base" remote="github" revision="jb4.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/mclinker" name="SlimRoms/frameworks_compile_mclinker" remote="github" revision="jb4.3" />
@@ -212,7 +212,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="SlimRoms/frameworks_native" remote="github" revision="jb4.3" />
+  <project path="frameworks/native" name="3dsfr3ak/android_frameworks_native" remote="github" revision="slim-4.3"/>
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -238,11 +238,11 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="SlimRoms/hardware_libhardware" remote="github" revision="jb4.3" />
   <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="jb4.3" />
-  <project path="hardware/msm7k" name="SlimRoms/hardware_msm7k" remote="github" revision="jb4.3" />
+  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="github" revision="cm-10.2" /> 
   <project path="hardware/qcom/audio" name="SlimRoms/hardware_qcom_audio" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/bt" name="SlimRoms/hardware_qcom_bt" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/display" name="SlimRoms/hardware_qcom_display" remote="github" revision="jb4.3" />
-  <project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" remote="github" revision="jb4.3" />
+  <project path="hardware/qcom/gps" name="androidarmv6/android_hardware_qcom_gps" remote="github" revision="cm-10.2"/>
   <project path="hardware/qcom/keymaster" name="SlimRoms/hardware_qcom_keymaster" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/media" name="SlimRoms/hardware_qcom_media" remote="github" revision="jb4.3" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
@@ -359,11 +359,11 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="SlimRoms/android_system_bluetooth" remote="github" revision="jb4.3" />
-  <project path="system/core" name="SlimRoms/android_system_core" remote="github" revision="jb4.3" />
+  <project path="system/bluetooth" name="androidarmv6/android_system_bluetooth" remote="github" revision="cm-10.2"/>
+  <project path="system/core" name="3dsfr3ak/android_system_core" remote="github" revision="slim-4.3"/>
   <project path="system/extras" name="SlimRoms/android_system_extras" remote="github" revision="jb4.3" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="SlimRoms/android_system_netd" remote="github" revision="jb4.3" />
+  <project path="system/netd" name="androidarmv6/android_system_netd" remote="github" revision="cm-10.2"/>
   <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="SlimRoms/android_system_vold" remote="github" revision="jb4.3" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
@@ -408,5 +408,22 @@
 
     <!--CyanogenMod DSPManager -->
    <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-10.2" />
+
+<!--Devices-->
+  <project name="3dsfr3ak/android_device_zte_blade2-common" path="device/zte/blade2-common" remote="github" revision="cm-10.2" />
+  <project name="3dsfr3ak/android_device_zte_blade2_p736e" path="device/zte/blade2_p736e" remote="github" revision="slim-4.3" />
+  <project name="3dsfr3ak/android_device_zte_blade2_p736v" path="device/zte/blade2_p736v" remote="github" revision="slim-4.3" />
+  <project name="3dsfr3ak/android_kernel_zte_msm7x27" path="kernel/zte/msm7x27" remote="github" revision="cm-10.1" />
+  <project name="Dazzozo/proprietary_vendor_zte" path="vendor/zte" remote="github" revision="cm-10.1" />
+  <project name="androidarmv6/android_device_qcom_msm7x27" path="device/qcom/msm7x27" remote="github" revision="cm-10.2" />
+  <project name="androidarmv6/android_device_zte_msm7x27-common" path="device/zte/msm7x27-common" remote="github" revision="cm-10.2" />
+  <project name="androidarmv6/android_vendor_qcom_msm7x27" path="vendor/qcom/msm7x27" remote="github" revision="cm-10.2" />
+  <project name="androidarmv6/android_device_zte_skate" path="device/zte/skate" remote="github" revision="cm-10.2" />
+
+<!--Qcom_display-legacy-->
+  <project path="hardware/qcom/display-legacy" name="androidarmv6/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2"/>
+
+<!--Qcom_Media_Legacy-->
+  <project path="hardware/qcom/media_legacy" name="androidarmv6/android_hardware_qcom_media_legacy" remote="github" revision="cm-10.2"/>
 
 </manifest>
